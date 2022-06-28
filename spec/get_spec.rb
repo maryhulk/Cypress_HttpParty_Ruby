@@ -6,4 +6,5 @@ describe 'fazer uma requisição' do#descrevendo que será feita uma requisiçã
         expect(@list.parsed_response['typeOfEstablishment'].first['name']).to eq 'PIZZARIA' #validando se a variavel setada é a informada
         puts @list.body['PIZZARIA'] #exibindo todo o corpo da requisição, que traz um arrey de vários objetos.
     end
+
 end
